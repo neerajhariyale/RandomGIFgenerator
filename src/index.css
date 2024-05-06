@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+.background {
+  background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+  
+}
+
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+
+.colorful{
+   width: 56px;
+   height: 31.4px;
+   --c: radial-gradient(farthest-side,#474bff 90%,#0000);
+   background: var(--c) 0    50%,
+        var(--c) 50%  50%,
+        var(--c) 50%  50%,
+        var(--c) 100% 50%;
+   background-size: 13.4px 13.4px;
+   background-repeat: no-repeat;
+   animation: dots-c1z5gf 1s infinite linear;
+}
+
+@keyframes dots-c1z5gf {
+   33% {
+      background-position: 0   0  ,50% 100%,50%  100%,100% 0;
+   }
+
+   66% {
+      background-position: 50% 0  ,0   100%,100% 100%,50%  0;
+   }
+
+   100% {
+      background-position: 50% 50%,0   50% ,100% 50% ,50%  50%;
+   }
+}
