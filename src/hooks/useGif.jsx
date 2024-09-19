@@ -25,5 +25,5 @@ const useGif = (tag) => {
 
   return { gif, loading, fetchData };
 };
-
+//default
 export default useGif;
